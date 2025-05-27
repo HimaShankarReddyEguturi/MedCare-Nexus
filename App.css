@@ -1,0 +1,61 @@
+body {
+  background-image: url("https://www.brookings.edu/wp-content/uploads/2017/05/hospital002.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  width: 500px;
+  height:900px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 40px;
+  margin: 10px auto;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px rgba(244, 235, 235, 0.3);
+}
+
+.container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="Height"],
+input[type="Weight"],
+input[type="Mobile no"],
+input[type="Gender"],
+select,
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
