@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Phy_DataEntry.css">
+    <title>Details Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Patient Entry Type</h1>
+        <button id="newPatientButton">New Patient</button>
+        <button id="oldPatientButton">Old Patient</button>
+    </div>
+    <script>
+        document.getElementById('newPatientButton').addEventListener('click', function() {
+            window.location.href = 'http://localhost:3000';  // Redirect to the React app page
+        });
+
+        document.getElementById('oldPatientButton').addEventListener('click', function() {
+            window.location.href = 'Old_Patient.html';  // Redirect to the old patient page
+        });
+    </script>
+</body>
+</html>
